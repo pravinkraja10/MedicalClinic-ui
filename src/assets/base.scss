@@ -1,0 +1,164 @@
+// Core
+
+@import 'core';
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700&display=swap');
+
+// Widgets
+
+@import 'widgets';
+
+// Components
+
+@import 'components';
+
+// Layout Components
+
+@import 'layout-components';
+
+// Layout Blueprints
+
+@import 'layout-blueprints';
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+}
+
+.description-short {
+  min-height: 72px;
+}
+
+.logotxt {
+  text-align: center;
+  font: normal normal bold 26px/35px Playfair Display;
+  letter-spacing: 0px;
+  color: #00ced1;
+  line-height: 26px;
+}
+
+.logofoot {
+  text-align: center;
+  font: normal normal bold 20px/35px Playfair Display;
+  letter-spacing: 0px;
+  color: #00ced1;
+  line-height: 26px;
+}
+
+.headbgtxt {
+  text-align: left;
+  font: normal normal bold 20px/30px Poppins;
+  letter-spacing: 1.6px;
+  color: #fff9ed;
+  text-transform: uppercase;
+}
+
+.meditxt {
+  font: normal normal bold 40px/53px Playfair Display;
+  letter-spacing: 0px;
+  color: #454141;
+}
+
+.hdtxt {
+  font: normal normal bold 48px/53px Playfair Display;
+  letter-spacing: 0px;
+  color: #00ced1;
+}
+
+.medihead {
+  text-align: center;
+  font: normal normal bold 70px/94px Playfair Display;
+  letter-spacing: 0px;
+  color: #454141;
+}
+
+.bg-medi {
+  background-color: #00ced1;
+}
+
+.bg-foot {
+  background-color: #464646;
+}
+
+.myfont {
+  font: normal normal bold 20px/32px Playfair Display;
+}
+
+txt-foot {
+  text-align: left;
+  font: normal normal bold 20px/32px Playfair Display;
+  letter-spacing: 0px;
+  color: #00ced1;
+}
+.bg-box {
+  background: #00ced1 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+.linegap {
+  line-height: 4rem;
+}
+
+.txtclr {
+  font-family: 'Playfair Display';
+  color: #00ced1;
+}
+
+.txtclronly {
+  color: #00ced1;
+}
+
+.d-65 {
+  height: 65px !important;
+  line-height: 80px !important;
+  width: 65px !important;
+}
+
+.cartxt {
+  text-align: left;
+  font: normal normal medium 40px/60px Poppins;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-size: 31px;
+}
+
+.servicebox {
+  width: 16.667%;
+  height: 16.667%;
+  padding: 11px;
+}
+
+.opacity-10 {
+  opacity: 1.9 !important;
+}
+
+.apptext {
+  text-align: left;
+  font-family: poppins;
+  font-size: 100px;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+/*--responsive for mobile phone--*/
+@media (max-width: 992px) {
+}
