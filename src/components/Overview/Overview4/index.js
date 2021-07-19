@@ -55,7 +55,7 @@ export default function LivePreviewExample() {
                     <br />
                     <br />
                   </p>
-                  <div className="mt-4">
+                  <div className="my-4 txt-cen">
                     <Button
                       href="/services"
                       className="btn-info text-nowrap btn-outline-info font-weight-bold headbgtxt text-uppercase">
@@ -65,7 +65,7 @@ export default function LivePreviewExample() {
                 </div>
               </div>
             </Grid>
-            <Grid item md={4}>
+            <Grid item md={4} className="only-pc">
               {
                 <>
                   <a
@@ -83,17 +83,19 @@ export default function LivePreviewExample() {
             </Grid>
             <Grid item md={4}>
               <div className="mx-5">
-                <Grid container spacing={2}>
-                  <Grid item xl={4} md={6}>
+                <Grid
+                  container
+                  spacing={2}
+                  style={{ justifyContent: 'center' }}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(1, stock1)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 1 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock1}
                           className="card-img-top bg-box"
@@ -114,16 +116,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(2, stock2)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 2 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock2}
                           className="card-img-top bg-box"
@@ -144,16 +145,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(3, stock3)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 3 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock3}
                           className="card-img-top bg-box"
@@ -174,16 +174,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(4, stock4)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 4 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock4}
                           className="card-img-top bg-box"
@@ -204,16 +203,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(5, stock5)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 5 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock1}
                           className="card-img-top bg-box"
@@ -234,16 +232,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(6, stock6)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 6 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock6}
                           className="card-img-top bg-box"
@@ -265,16 +262,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(7, stock7)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 7 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock7}
                           className="card-img-top bg-box"
@@ -295,16 +291,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(8, stock8)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 8 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock8}
                           className="card-img-top bg-box"
@@ -325,16 +320,15 @@ export default function LivePreviewExample() {
                       </div>
                     </a>
                   </Grid>
-                  <Grid item xl={4} md={6}>
+                  <Grid item xl={4} md={6} className="m-width">
                     <a
                       href="#/"
                       onClick={() => changeService(9, stock9)}
                       className="card bg-box  card-box-hover-rise-alt">
                       <div
-                        className={`bg-composed-wrapper card ${
+                        className={`bg-composed-wrapper max-h card ${
                           service !== 9 && 'bg-medi'
-                        } border-0`}
-                        style={{ maxHeight: '159px' }}>
+                        } border-0`}>
                         <img
                           src={stock9}
                           className="card-img-top bg-box"

@@ -12,7 +12,7 @@ export default function LivePreviewExample() {
         <Card className="card-box w-100">
           <div className="card-img-wrapper bg-medi h-240px">
             <div className="bg-medi">
-              <div className="justify-content-center">
+              <div className="justify-content-center only-pc">
                 <Grid container spacing={6} className="justify-content-center">
                   <Grid item md={2} style={{ top: '-75px', maxWidth: '17rem' }}>
                     <div
@@ -134,7 +134,7 @@ export default function LivePreviewExample() {
                         md={12}
                         className="p-5"
                         style={{ float: 'right', fontSize: '4rem' }}>
-                        <span className="txtclr font-weight-bold">WHO</span>
+                        <span className="txtclronly font-weight-bold">WHO</span>
                         <br />
                         <span className="text-white">WE</span>
                         <br />
@@ -157,7 +157,7 @@ export default function LivePreviewExample() {
                     vulputate, non mollis augue sollicitudin.
                   </p>
 
-                  <Grid container spacing={6}>
+                  <Grid container spacing={6} className="mt-3">
                     <Grid item lg={4} className="d-flex">
                       <Card className="card-box w-100 card-box-hover-rise">
                         <div className="card-img-wrapper h-320px">
@@ -228,7 +228,7 @@ export default function LivePreviewExample() {
                   <Button
                     href="#/"
                     onClick={(e) => e.preventDefault()}
-                    className="btn-light ml-3 mt-5 text-nowrap btn-outline-light font-weight-bold headbgtxt text-uppercase">
+                    className="btn-light mt-4 text-nowrap btn-outline-light font-weight-bold headbgtxt text-uppercase">
                     get to know us
                   </Button>
                 </CardContent>

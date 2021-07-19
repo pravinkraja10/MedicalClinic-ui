@@ -53,7 +53,7 @@ export default function LivePreviewExample() {
                     className="bg-composed-wrapper--content text-left"
                     style={{ minHeight: '40rem' }}>
                     <div className="text-white mt-3">
-                      <div className="mx-auto" style={{ padding: '11rem' }}>
+                      <div className="mx-auto pad">
                         <Grid item md={4}>
                           <div className="cartxt">
                             We combine the latest
@@ -67,14 +67,15 @@ export default function LivePreviewExample() {
                             optimal results.
                           </div>
                           <Button
+                            style={{ maxWidth: '12rem' }}
                             href="/appointment"
-                            className="btn-info mt-5 text-nowrap btn-outline-info font-weight-bold headbgtxt text-uppercase">
+                            className="btn-info mt-3 text-nowrap btn-outline-info font-weight-bold headbgtxt text-uppercase">
                             set an appointment
                           </Button>
                           <Button
                             href="#/"
                             onClick={(e) => e.preventDefault()}
-                            className="btn-first ml-3 mt-5 text-nowrap btn-outline-first font-weight-bold headbgtxt text-uppercase">
+                            className="btn-first ml-3 mt-3 text-nowrap btn-outline-first font-weight-bold headbgtxt text-uppercase">
                             (650)762-9855
                           </Button>
                         </Grid>
@@ -98,7 +99,7 @@ export default function LivePreviewExample() {
                     className="bg-composed-wrapper--content text-left"
                     style={{ minHeight: '40rem' }}>
                     <div className="text-white mt-3">
-                      <div className="mx-auto" style={{ padding: '11rem' }}>
+                      <div className="mx-auto pad">
                         <Grid item md={4}>
                           <div className="cartxt">
                             We combine the latest
@@ -112,15 +113,15 @@ export default function LivePreviewExample() {
                             optimal results.
                           </div>
                           <Button
-                            href="#/"
-                            onClick={(e) => e.preventDefault()}
-                            className="btn-info mt-5 text-nowrap btn-outline-info font-weight-bold headbgtxt text-uppercase">
+                            style={{ maxWidth: '12rem' }}
+                            href="/appointment"
+                            className="btn-info mt-3 text-nowrap btn-outline-info font-weight-bold headbgtxt text-uppercase">
                             set an appointment
                           </Button>
                           <Button
                             href="#/"
                             onClick={(e) => e.preventDefault()}
-                            className="btn-first ml-3 mt-5 text-nowrap btn-outline-first font-weight-bold headbgtxt text-uppercase">
+                            className="btn-first ml-3 mt-3 text-nowrap btn-outline-first font-weight-bold headbgtxt text-uppercase">
                             (650)762-9855
                           </Button>
                         </Grid>

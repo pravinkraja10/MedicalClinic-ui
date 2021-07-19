@@ -15,8 +15,8 @@ export default function LivePreviewExample() {
       <div className="text-center mt-5">
         <span className="text-info text-uppercase">we accept most of</span>
         <br />
-        <span className="medihead linegap">PPO and HMO plans</span>
-        <Grid item xl={6} className="mx-auto my-4">
+        <span className="medihead linegap ">PPO and HMO plans</span>
+        <Grid item xl={6} className="mx-auto px-3 my-4">
           <span className="font-size-sm">
             We may collect your insurance information prior to your first office
             visit.
@@ -35,7 +35,7 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded   bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo1}
+                  src={logo2}
                   style={{ height: 100 }}
                   className="m-auto img-fluid text-white"
                   alt="..."
@@ -45,8 +45,8 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo2}
-                  style={{ height: 120 }}
+                  src={logo3}
+                  style={{ height: 80 }}
                   className="m-auto img-fluid text-white"
                   alt="..."
                 />
@@ -55,7 +55,7 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo3}
+                  src={logo4}
                   style={{ height: 70 }}
                   className="m-auto img-fluid text-white"
                   alt="..."
@@ -65,7 +65,7 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded  bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo4}
+                  src={logo5}
                   style={{ height: 90 }}
                   className="m-auto img-fluid text-white"
                   alt="..."
@@ -92,7 +92,7 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo6}
+                  src={logo1}
                   style={{ height: 120 }}
                   className="m-auto img-fluid text-white"
                   alt="..."
@@ -112,7 +112,7 @@ export default function LivePreviewExample() {
             <div className="p-3 m-3 d-flex align-self-stretch">
               <div className="hover-scale-rounded  bg-white opacity-9 rounded-sm p-4">
                 <img
-                  src={logo5}
+                  src={logo6}
                   style={{ height: 90 }}
                   className="m-auto img-fluid text-white"
                   alt="..."

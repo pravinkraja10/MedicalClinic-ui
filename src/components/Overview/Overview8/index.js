@@ -38,7 +38,7 @@ export default function LivePreviewExample() {
               }}
             />
           </Grid>
-          <Grid item md={1}>
+          <Grid item md={1} style={{ maxWidth: '13rem' }}>
             <Button className="w-100 mt-3 mt-md-0 btn-outline-info bg-info">
               <span className="btn-wrapper--label text-white font-weight-bold">
                 Sign up
@@ -55,12 +55,12 @@ export default function LivePreviewExample() {
           <div className="pt-4">
             <Grid container spacing={0} className="text-center w-100">
               <Grid item md={6} xl={3}>
-                <div className="my-4 my-xl-0 ml-3">
+                <div>
                   <a
                     href="#/"
                     onClick={(e) => e.preventDefault()}
                     title="Bay Area Foot & Ankle Medical Clinic"
-                    className="app-nav-logo">
+                    className="app-nav-logo center-m">
                     <div className="avatar-icon d-65  rounded-circle ">
                       <img
                         alt="Bay Area Foot & Ankle Medical Clinic"
@@ -74,7 +74,7 @@ export default function LivePreviewExample() {
                   </a>
                   <List
                     component="div"
-                    className="nav-transparent text-nowrap d-flex justify-content-left">
+                    className="nav-transparent text-nowrap d-flex justify-content-left center-m">
                     <ListItem
                       button
                       className="text-info"
